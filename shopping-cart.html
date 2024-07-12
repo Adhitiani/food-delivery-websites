@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>GoEat</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="content-wrapper">
+        <nav
+          class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light bg-white"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand col-lg-4" href="index.html"
+              ><img src="img/goEatLogo.png" alt="goeat logo"
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav col-lg-4">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="restaurant-list.html"
+                    >Restaurants</a
+                  >
+                </li>
+              </ul>
+              <div class="nav-item justify-content-between">
+                <a href="shopping-cart.html" style="color: grey">
+                  <i class="fa fa-shopping-cart fa-lg"></i
+                ></a>
+                <a class="btn btn-danger login-button ml-3" href="login.html"
+                  >Sign up/ Log in</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="content-wrapper">
+        <section class="shopping-cart h-100">
+          <div class="container py-5 h-100">
+            <div class="row">
+              <div class="col-12">
+                <div class="card" style="border-radius: 15px">
+                  <div class="card-body p-0">
+                    <div class="row p-5">
+                      <h6 class="mb-0">
+                        <a href="restaurant-list.html" class="text-body"
+                          ><i class="fas fa-long-arrow-alt-left me-2"></i>Back
+                          to restaurants</a
+                        >
+                      </h6>
+                      <div class="d-flex mb-3">
+                        <h1 class="fw-bold mb-0">Shopping Cart</h1>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="shopping-item">
+                        <div
+                          class="row mb-4 d-flex justify-content-between align-items-center"
+                        >
+                          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-2">
+                            <img
+                              src="img/5f8e4e539e39d4f721e71816_food_3.jpg"
+                              class="img-fluid rounded-3"
+                              alt="food"
+                            />
+                          </div>
+                          <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                            <h6>Items name</h6>
+                          </div>
+                          <div class="col-5 col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <input
+                              id="quantity-1"
+                              type="number"
+                              value="1"
+                              class="form-control quantity-input"
+                            />
+                          </div>
+                          <div class="col-4 col-md-3 col-lg-2 col-xl-2">
+                            <h6 class="mb-0">HUF 2,000</h6>
+                          </div>
+                          <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                            <a href="#!" class="text-muted"
+                              ><i class="fas fa-trash"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="shopping-item">
+                        <div
+                          class="row mb-4 d-flex justify-content-between align-items-center"
+                        >
+                          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-2">
+                            <img
+                              src="img/5f8e4e539e39d4f721e71816_food_3.jpg"
+                              class="img-fluid rounded-3"
+                              alt="food"
+                            />
+                          </div>
+                          <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                            <h6>Items name</h6>
+                          </div>
+                          <div class="col-5 col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <input
+                              id="quantity-2"
+                              type="number"
+                              value="1"
+                              class="form-control quantity-input"
+                            />
+                          </div>
+                          <div class="col-4 col-md-3 col-lg-2 col-xl-2">
+                            <h6 class="mb-0">HUF 2,000</h6>
+                          </div>
+                          <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                            <a href="#!" class="text-muted"
+                              ><i class="fas fa-trash"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="shopping-item">
+                        <div
+                          class="row mb-4 d-flex justify-content-between align-items-center"
+                        >
+                          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-2">
+                            <img
+                              src="img/5f8e4e539e39d4f721e71816_food_3.jpg"
+                              class="img-fluid rounded-3"
+                              alt="food"
+                            />
+                          </div>
+                          <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                            <h6>Items name</h6>
+                          </div>
+                          <div class="col-5 col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <input
+                              id="quantity-3"
+                              type="number"
+                              value="1"
+                              class="form-control quantity-input"
+                            />
+                          </div>
+                          <div class="col-4 col-md-3 col-lg-2 col-xl-2">
+                            <h6 class="mb-0">HUF 2,000</h6>
+                          </div>
+                          <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                            <a href="#!" class="text-muted"
+                              ><i class="fas fa-trash"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="shopping-item">
+                        <div
+                          class="row mb-4 d-flex justify-content-between align-items-center"
+                        >
+                          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-2">
+                            <img
+                              src="img/5f8e4e539e39d4f721e71816_food_3.jpg"
+                              class="img-fluid rounded-3"
+                              alt="food"
+                            />
+                          </div>
+                          <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                            <h6>Items name</h6>
+                          </div>
+                          <div class="col-5 col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <input
+                              id="quantity-4"
+                              type="number"
+                              value="1"
+                              class="form-control quantity-input"
+                            />
+                          </div>
+                          <div class="col-4 col-md-3 col-lg-2 col-xl-2">
+                            <h6 class="mb-0">HUF 2,000</h6>
+                          </div>
+                          <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                            <a href="#!" class="text-muted"
+                              ><i class="fas fa-trash"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4" />
+
+                      <div class="shopping-item">
+                        <div
+                          class="row mb-4 d-flex justify-content-between align-items-center"
+                        >
+                          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-2">
+                            <img
+                              src="img/5f8e4e539e39d4f721e71816_food_3.jpg"
+                              class="img-fluid rounded-3"
+                              alt="food"
+                            />
+                          </div>
+                          <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                            <h6>Items name</h6>
+                          </div>
+                          <div class="col-5 col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <input
+                              id="quantity-5"
+                              type="number"
+                              value="1"
+                              class="form-control quantity-input"
+                            />
+                          </div>
+                          <div class="col-4 col-md-3 col-lg-2 col-xl-2">
+                            <h6 class="mb-0">HUF 2,000</h6>
+                          </div>
+                          <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                            <a href="#!" class="text-muted"
+                              ><i class="fas fa-trash"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-4" />
+
+                      <div class="shopping-summary">
+                        <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                        <div class="d-flex justify-content-between mb-4">
+                          <h5 class="text-uppercase">Quantity</h5>
+                          <h5>5 items</h5>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-5">
+                          <h5 class="text-uppercase">Total price</h5>
+                          <h5>HUF 10,000</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-danger btn-block btn-lg"
+                          >
+                            <a href="checkout.html" style="color: white"
+                              >Check Out</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="text-center text-lg-start">
+      <section class="contact">
+        <div class="container text-center p-4">
+          <div class="row mt-3">
+            <div class="mx-auto mb-4">
+              <img src="img/goEatLogo.png" alt="goeat logo" />
+            </div>
+            <div class="mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>Budapest Hungary</p>
+              <p><i class="fas fa-envelope me-3"></i>hello@goeat.com</p>
+              <p><i class="fas fa-phone me-3"></i> +365555555</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="social-media mb-4">
+        <a class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f" style="color: white"></i
+        ></a>
+
+        <a class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram" style="color: white"></i
+        ></a>
+
+        <a class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in" style="color: white"></i
+        ></a>
+      </section>
+
+      <div class="copyright text-center p-4">© Copyright 2024 | GoEat</div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

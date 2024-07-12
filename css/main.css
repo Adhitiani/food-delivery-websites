@@ -86,11 +86,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+h1 {
+  text-align: center;
+}
+
 .login-button a {
   color: white;
 }
 a:link {
   text-decoration: none;
+  color: #000;
 }
 
 a:visited {
@@ -105,20 +111,14 @@ a:visited {
   margin: 0.5em;
 }
 
-.restaurant,
-.hero-area,
-.login,
-.categories {
-  margin-top: 100px;
-}
-
 .hero-area {
-  background: url(../img/home.png);
+  background: url(../img/hero.png);
   background-size: cover;
   background-position: center;
   min-height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-area h1 {
